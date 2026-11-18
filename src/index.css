@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --color-brand: #0084ff;
+  --color-coral: #ee626b;
+  --color-ink: #1e1e1e;
+  --color-muted: #7a7a7a;
+  --color-soft: #f7f7f7;
+}
+
+
+@layer components {
+  .btn-coral {
+    @apply rounded-full bg-coral px-6 py-3 text-xs font-semibold tracking-wider text-white;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: #fff;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
