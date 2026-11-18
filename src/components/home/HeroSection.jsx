@@ -8,8 +8,9 @@ function HeroSection() {
             BEST <span className="underline decoration-coral decoration-[5px] underline-offset-[10px]">GAMING</span> SITE EVER!
           </h1>
           <p className="mt-8 text-sm leading-7 text-white/90">
-            Find your next favorite game. Browse the trending titles, compare prices and start playing today.
-          </p>
+    LUGX Gaming is free Bootstrap 5 HTML CSS website template for your
+            gaming websites. You can download and use this layout for commercial
+            purposes. Please tell your friends about TemplateMo.          </p>
 
           <div className="mt-8 flex max-w-md items-center rounded-full bg-white p-1.5">
             <input
